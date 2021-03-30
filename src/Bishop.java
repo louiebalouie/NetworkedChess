@@ -1,4 +1,6 @@
 import java.awt.Point;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,14 +8,14 @@ import javax.swing.ImageIcon;
 
 public final class Bishop extends Piece{
 	
-	public Bishop(Square _occupying, String _color) {
+	public Bishop(Square _occupying, String _color){
 		super(_occupying, _color);
 		
 		if(getColor() == "white") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\whitebishop.png");
+			this.icon = new ImageIcon("images/whitebishop.png");
 		}
 		else if(getColor() == "black") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\blackbishop.png");
+			this.icon = new ImageIcon(getClass().getResource("blackbishop.png"));
 		}
 	}
 

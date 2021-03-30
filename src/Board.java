@@ -1,6 +1,7 @@
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.Point;
+import java.net.MalformedURLException;
 import java.util.List;
 
 import javax.swing.JPanel;
@@ -32,7 +33,7 @@ public class Board extends JPanel{
 	/**
 	 * This function populates a chess board with pieces in their respective starting positions, and gives them initial values
 	 */
-	public void boardInit(boolean custom){
+	public void boardInit(boolean custom) {
 		removeAll();
 		for(int y = 0; y < 8; y++) {
 			for(int x = 0; x < 8; x++) {
