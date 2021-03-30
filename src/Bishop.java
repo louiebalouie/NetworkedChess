@@ -15,7 +15,7 @@ public final class Bishop extends Piece{
 			this.icon = new ImageIcon("images/whitebishop.png");
 		}
 		else if(getColor() == "black") {
-			this.icon = new ImageIcon(getClass().getResource("blackbishop.png"));
+			this.icon = new ImageIcon("images/blackbishop.png");
 		}
 	}
 
