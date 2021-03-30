@@ -10,10 +10,10 @@ public final class Bishop extends Piece{
 		super(_occupying, _color);
 		
 		if(getColor() == "white") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\whitebishop.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\whitebishop.png");
 		}
 		else if(getColor() == "black") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\blackbishop.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\blackbishop.png");
 		}
 	}
 

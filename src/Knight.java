@@ -14,10 +14,10 @@ public final class Knight extends Piece {
 		super(_occupying, _color);
 		
 		if(getColor() == "white") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\whiteknight.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\whiteknight.png");
 		}
 		else if(getColor() == "black") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\blackknight.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\blackknight.png");
 		}
 	}
 	

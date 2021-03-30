@@ -11,10 +11,10 @@ public final class Rook extends Piece {
 		super(_occupying, _color);
 		
 		if(getColor() == "white") {
-			icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\whiterook.png");
+			icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\whiterook.png");
 		}
 		else if(getColor() == "black") {
-			icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\blackrook.png");
+			icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\blackrook.png");
 		}
 	}
 	

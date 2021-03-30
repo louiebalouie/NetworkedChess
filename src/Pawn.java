@@ -15,10 +15,10 @@ public final class Pawn extends Piece {
 		super(_occupying, _color);
 		setMoved(false);
 		if(getColor() == "white") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\whitepawn.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\whitepawn.png");
 		}
 		else if(getColor() == "black") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\bpawn.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\blackpawn.png");
 		}
 	}
 	

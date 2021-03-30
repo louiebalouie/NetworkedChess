@@ -13,10 +13,10 @@ public final class Queen extends Piece {
 		super(_occupying, _color);
 		
 		if(getColor() == "white") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\whitequeen.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\whitequeen.png");
 		}
 		else if(getColor() == "black") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\blackqueen.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\blackqueen.png");
 		}
 	}
 

@@ -11,10 +11,10 @@ public class Soldier extends Piece {
 		super(_occupying, _color);
 		
 		if(getColor() == "white") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\whitesoldier.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\whitesoldier.png");
 		}
 		else if(getColor() == "black") {
-			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\Net Chess\\images\\blacksoldier.png");
+			this.icon = new ImageIcon("C:\\Users\\mikey\\Desktop\\NetworkedChess\\images\\blacksoldier.png");
 		}
 	}
 
